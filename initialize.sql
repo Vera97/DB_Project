@@ -1,0 +1,17 @@
+use manager;
+load data local infile 'XXXXXX\\data2\\region.tbl' into table region fields terminated by '|';
+select *from region;
+load data local infile 'XXXXXX\\data2\\nation.tbl' into table nation fields terminated by '|';
+select *from nation;
+load data local infile 'XXXXXX\\data2\\part.tbl' into table part fields terminated by '|';
+select *from part;
+load data local infile 'XXXXXX\\data2\\supplier.tbl' into table supplier fields terminated by '|';
+select *from supplier;
+load data local infile 'XXXXXX\\data2\\partsupp.tbl' into table partsupp fields terminated by '|';
+select *from partsupp;
+load data local infile 'XXXXXX\\data2\\customer.tbl' into table customer fields terminated by '|';
+select *from customer;
+load data local infile 'XXXXXX\\data2\\orders.tbl' into table orders fields terminated by '|';
+select *from orders;
+load data local infile 'XXXXXX\\data2\\lineitem.tbl' into table lineitem fields terminated by '|';
+select *from lineitem;
